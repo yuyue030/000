@@ -8,7 +8,7 @@
     <h1>問問神奇海螺</h1>
     <input type="text" id="query" placeholder="問問神奇海螺">
     <button onclick="search()">Search</button>
-    <h2>可以問</h2>
+
     <p id="result"></p>
 
     <script>
@@ -21,6 +21,9 @@
                 .then(text => document.getElementById('result').innerText = text)
                 .catch(error => console.error('Error:', error));
         }
+    <h2>可以問</h2>
+    <input type="text" id="query" placeholder="甜品店的營業時間是什麼">
     </script>
 </body>
 </html>
+
